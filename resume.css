@@ -24,3 +24,6 @@ a {
 	text-decoration: none;
 	color: black;
 }
+h3 {
+	font-variant: small-caps;
+}
