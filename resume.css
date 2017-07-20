@@ -1,6 +1,5 @@
 /* This is the css document for the résumé page. */
 
-/* Nav Bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,4 +20,6 @@ li a {
 li a:hover {
     background-color: #111;
 }
-
+a:hover {
+	color: black;
+}
