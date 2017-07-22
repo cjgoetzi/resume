@@ -27,3 +27,7 @@ a {
 h3 {
 	font-variant: small-caps;
 }
+footer {
+    margin: 775px 0px 0px 0px;
+    text-align: center;
+}
