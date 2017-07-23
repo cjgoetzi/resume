@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Contact Cory J. Goetzinger</title>
+        <meta name="description" content="Let's have a conversation." />
+        <meta name="keywords" content="professional, email, contact, discuss" />
+        <link rel="stylesheet" type="text/css" href="resume.css" />
+        <style>
+            footer {
+                margin: 635px 0px 0px 0px;
+            }
+        </style>
+    </head>
+  
+    <body>
+        <header>
+        <h1><a class="active" href="home.html">Cory J. Goetzinger</a></h1>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        <hr>
+        </header>
+    
+        <section>
+            <h2>Contact</h2>
+            <p>You are welcome to reach out to me if you have any questions or comments; keep it friendly or professional. Either way, I will contact soon after I receive your message.</p>
+        </section>
+    
+        <section>
+            <form name="contactform" method="post" action="emailMe.php">
+                <table width="600">
+                    <tr>
+                        <td valign="top">
+                            <label for="first_name">First Name *</label>
+                        </td>
+                        <td valign="top">
+                            <input type="text" name="first_name" maxlength="50" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <label for="last_name">Last Name *</label>
+                        </td>
+                        <td valign="top">
+                            <input type="text" name="last_name" maxlength="50" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <label for="email">Email Address *</label>
+                        </td>
+                        <td valign="top">
+                            <input type="text" name="email" maxlength="80" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <label for="telephone">Telephone Number</label>
+                        </td>
+                        <td valign="top">
+                            <input type="text" name="telephone" maxlength="30" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+                            <label for="comments">Comments *</label>
+                        </td>
+                        <td valign="top">
+                            <textarea name="comments" maxlength="1000" cols="50" rows="15"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="20" style="text-align:center">
+                            <input type="submit" value="Submit" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+
+        <footer>
+            <p class="copyright" id="copyright">
+                <!-- Begin JavaScript to update copyright year -->
+                <script>
+                    var today = new Date();
+                    var year = today.getFullYear();
+                    var el = document.getElementById("copyright");
+                    el.innerHTML = '<p>&copy; ' + year + ' Cory J. Goetzinger</p>';
+                </script>
+                <!-- End JavaScript -->
+            </p>
+        </footer>
+    </body>
+</html>
