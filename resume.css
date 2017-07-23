@@ -1,5 +1,9 @@
 /* This is the css document for the résumé site. */
 
+* {
+    background-color: #333;
+    color: #fff;
+}
 ul {
     list-style-type: none;
     margin: 0;
